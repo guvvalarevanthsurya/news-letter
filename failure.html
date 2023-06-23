@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>Failure</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+            margin:30px 30px 50px 30px;
+            padding:50px;
+            background-color: bisque;
+            font-size:20px;
+        }      
+        h1{
+            font-size: 100px;
+            font-family: 'Bebas Neue', sans-serif;
+        }
+        h2{
+            font-size:30px;
+            font-family: 'Noto Sans', sans-serif;
+        }
+        .button{
+            background-color:yellow;
+            width:150px;
+            height:50px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Oh No!</h1>
+        <h2>Failed you have a error in your code pls check it or go to developer for any issues!</h2>
+        <form action="/failure" method="POST">
+            <button class="button" value="submit">TRY again!</button>
+        </form>
+    </div>
+</body>
+</html>
